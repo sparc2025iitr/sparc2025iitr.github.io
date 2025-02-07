@@ -69,22 +69,60 @@
   Student Coordinator
 
 <!-- Hero -->
-<div class="px-4 py-5 mt-5 text-center" id="hero">
-  <img class="d-block img-fluid mx-auto mb-4 pt-4" src="pics/Screenshot 2025-02-07 112112.png" alt="">
-  <h1 class="hero__heading py-3">Building Tomorrow: Security in the Age of AI, Quantum, and 6G
-</h1>
+<div class="px-4 py-5 mt-5 text-center" id="hero" style="background-color: #f8f9fa; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+  <img class="d-block img-fluid mx-auto mb-4 pt-4" src="pics/Screenshot 2025-02-07 112112.png" alt="Workshop Banner" style="border-radius: 10px;">
+  
+  <h1 class="hero__heading py-3" style="font-size: 2.5rem; color: #343a40; font-weight: bold;">
+    Building Tomorrow: Security in the Age of AI, Quantum, and 6G
+  </h1>
+  
   <div class="col-lg-6 mx-auto hero__text">
-    <p class="mb-4">
-      Register By: February 20, 2025.<br>
-      Register & Payment By: <c style="color:red;">February 28, 2025</c>.<br>
+    <p class="mb-4" style="font-size: 1.2rem; color: #495057;">
+      <span style="font-weight: bold; color: #28a745;">Early Bird Registration By:</span> <span style="color: #007bff;">February 20, 2025</span><br>
+      <span style="font-weight: bold; color: #dc3545;">Regular Registration By:</span> <span style="color: #007bff;">February 28, 2025</span><br>
     </p>
-    <marquee behavior="scroll" direction="left" scrollamount="5" onmouseover="this.stop();" onmouseout="this.start();">
-      <b style="color: rgb(0, 0, 0); align-items: center; justify-content: center; animation-duration: 8.75s;">
-        <a href="PAYMENTS_GUIDELINES.pdf" target="_blank">Please find the payment guidelines here.</a>
-      </b>
-    </marquee>
+    
+    <div class="marquee-container" style="background-color: #e9ecef; padding: 10px; border-radius: 5px; margin-top: 20px;">
+      <marquee behavior="scroll" direction="left" scrollamount="5" onmouseover="this.stop();" onmouseout="this.start();">
+        <b style="color: rgb(0, 0, 0);">
+          <a href="PAYMENTS_GUIDELINES.pdf" target="_blank" style="text-decoration: none; color: #007bff; font-weight: bold;">Please find the payment guidelines here.</a>
+        </b>
+      </marquee>
+    </div>
   </div>
 </div>
+
+<style>
+  #hero {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .hero__heading {
+    font-size: 2.5rem;
+    color: #343a40;
+    font-weight: bold;
+  }
+
+  .hero__text p {
+    font-size: 1.2rem;
+    color: #495057;
+  }
+
+  .marquee-container {
+    background-color: #e9ecef;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+
+  .marquee-container a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+  }
+</style>
 
 <section class="px-4 py-5 container" id="apply">
     <h1 class="text-center pb-4">Registration Details</h1>
